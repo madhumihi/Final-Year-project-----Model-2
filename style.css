@@ -1,0 +1,166 @@
+html,
+body,
+* {
+    font-family: poppins !important;
+}
+
+body {
+    background-color: #E8EBF0;
+
+}
+
+
+.navbar-style {
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    background-color: #09043B !important;
+}
+
+.search-bar {
+    border-radius: 20px;
+    border: unset;
+}
+
+.login-btn {
+    border-radius: 20px;
+}
+
+.center {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.landing-row {
+    margin-top: 5vw;
+}
+
+.landingClipArt {
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.landingClipArtImg {
+    width: 90%;
+    max-width: 500px;
+}
+
+.map-container {
+    height: 100vh;
+    background-color: white;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin-top: 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding-top: 12px;
+
+}
+
+.landing-div-para {
+    line-height: 30px;
+}
+
+.map-container-google-1 {
+    border-radius: 20px;
+}
+
+.popupHeaderBg {
+    background-color: #157347;
+    color: white;
+}
+
+@media screen and (max-width: 992px) {
+    .btn-group {
+        display: none;
+    }
+
+    .btn-group-vertical {
+        display: block;
+    }
+
+    .map-container {
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .btn-group {
+        display: block;
+    }
+
+    .btn-group-vertical {
+        display: none;
+    }
+}
+
+.statBox {
+    width: 140px;
+    height: 140px;
+    background-color: #ffffff;
+    margin: 10px;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+
+.pieChartImg{
+    width: 100px;
+}
+
+.inputField {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    max-width: 550px;
+    margin: 20px;
+    height: 50px;
+    
+}
+
+.second-container {
+    margin-top: 30px;
+}
+
+.secStatBox{
+    padding: 20px;
+    background-color: white;
+    height: 250px;
+    width:300px;
+    margin: 50px;
+    margin-bottom:50px;
+}
+
+.curcle {
+    
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    background-color: aquamarine;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.footer {
+    height: 60px !important;
+    color: #ffff;
+    background-color: #09043B  !important;
+    bottom: 0;
+}
+
+.circle {
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    border-radius: 100px;
+    font-size: 21px;
+    color: #fff;
+    text-align: center;
+    background: #0d683e
+  }
